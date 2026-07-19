@@ -2,23 +2,52 @@
   "id": "nrf51822",
   "name": "nRF51822 (Speaker Controller)",
   "category": "communication",
-  "description": "Nordic nRF51822 BLE SoC used as the speaker's button/encoder/LED controller",
+  "description": "Nordic nRF51822 BLE module (Core51822-style breakout) used as the speaker's button/encoder/LED controller",
 
   "pins": [
-    {"name": "P0.0 Source", "role": "GPIO", "side": "left"},
-    {"name": "P0.04 Pwr/Mute", "role": "GPIO", "side": "left"},
+    {"name": "VDD", "role": "3V3", "side": "left"},
+    {"name": "GND", "role": "GND", "side": "left"},
+    {"name": "P0.00 Source", "role": "GPIO", "side": "left"},
     {"name": "P0.01 Enc A", "role": "GPIO", "side": "left"},
+    {"name": "P0.02", "role": "GPIO", "side": "left"},
     {"name": "P0.03 Enc B", "role": "GPIO", "side": "left"},
+    {"name": "P0.04 Pwr/Mute", "role": "GPIO", "side": "left"},
+    {"name": "P0.05", "role": "GPIO", "side": "left"},
+    {"name": "P0.06", "role": "GPIO", "side": "left"},
+    {"name": "P0.07", "role": "GPIO", "side": "left"},
+    {"name": "P0.08", "role": "GPIO", "side": "left"},
     {"name": "P0.09 LED2", "role": "GPIO", "side": "left"},
-    {"name": "P0.29 LED1", "role": "GPIO", "side": "left", "optional": true},
-    {"name": "P0.13 RX", "role": "UART_RX", "side": "left", "optional": true},
-    {"name": "P0.14 TX", "role": "UART_TX", "side": "left", "optional": true}
+    {"name": "P0.10", "role": "GPIO", "side": "left"},
+    {"name": "P0.11", "role": "GPIO", "side": "left"},
+    {"name": "P0.12", "role": "GPIO", "side": "left"},
+    {"name": "P0.13 RX", "role": "UART_RX", "side": "left"},
+    {"name": "P0.14 TX", "role": "UART_TX", "side": "left"},
+    {"name": "P0.15", "role": "GPIO", "side": "left"},
+
+    {"name": "P0.16", "role": "GPIO", "side": "right"},
+    {"name": "P0.17", "role": "GPIO", "side": "right"},
+    {"name": "P0.18", "role": "GPIO", "side": "right"},
+    {"name": "P0.19", "role": "GPIO", "side": "right"},
+    {"name": "P0.20", "role": "GPIO", "side": "right"},
+    {"name": "P0.21", "role": "GPIO", "side": "right"},
+    {"name": "P0.22", "role": "GPIO", "side": "right"},
+    {"name": "P0.23", "role": "GPIO", "side": "right"},
+    {"name": "P0.24", "role": "GPIO", "side": "right"},
+    {"name": "P0.25", "role": "GPIO", "side": "right"},
+    {"name": "P0.26 XL2", "role": "GPIO", "side": "right"},
+    {"name": "P0.27 XL1", "role": "GPIO", "side": "right"},
+    {"name": "P0.28", "role": "GPIO", "side": "right"},
+    {"name": "P0.29 LED1", "role": "GPIO", "side": "right"},
+    {"name": "P0.30", "role": "GPIO", "side": "right"},
+    {"name": "SWDIO", "role": "GPIO", "side": "right"},
+    {"name": "SWDCLK", "role": "GPIO", "side": "right"},
+    {"name": "RESET", "role": "GPIO", "side": "right"}
   ],
 
   "display": {
-    "width": 130.0
+    "width": 165.0
   },
 
   "datasheet_url": "https://www.nordicsemi.com/products/nrf51822",
-  "notes": "Nordic nRF51822 BLE microcontroller flashed with custom firmware (via OpenOCD + ST-Link V2). Maps the speaker's physical controls to GPIO lines read by the Raspberry Pi Zero W. P0.0 and P0.04 idle HIGH; the encoder lines and LED2 idle LOW. P0.29 (LED1) and the P0.13/P0.14 UART are not wired to the Pi in this build."
+  "notes": "Nordic nRF51822 BLE microcontroller on a Core51822-style module (on-board PCB antenna) flashed with custom firmware via OpenOCD + ST-Link V2 (VDD/GND/SWDIO/SWDCLK). Breaks out all 31 GPIO (P0.00-P0.30) plus power, SWD and RESET. The module is powered from the Pi's 3V3 rail (VDD) and shares GND. In this build only P0.00/P0.04 (idle HIGH) and P0.01/P0.03/P0.09 (idle LOW) are wired to the Raspberry Pi Zero W as signals; P0.29 (LED1) and the P0.13/P0.14 UART are used on the module but not routed to the Pi. P0.26/P0.27 double as the optional 32.768kHz crystal pins (XL1/XL2)."
 }

@@ -7,6 +7,8 @@
 #
 # NRF51822 | Default | Pi GPIO (physical pin) | Function
 # ---------|---------|------------------------|----------------------
+# VDD      | --      | 3V3     (pin 17)       | Module power (Pi 3V3 rail)
+# GND      | --      | GND     (pin 25)       | Common ground
 # P0.0     | HIGH    | GPIO 7  (pin 26)       | Source switch / pairing
 # P0.04    | HIGH    | GPIO 8  (pin 24)       | Power / Mute / Encoder C
 # P0.01    | LOW     | GPIO 23 (pin 16)       | Encoder A
@@ -28,9 +30,17 @@ devices:
     name: "Audio DAC SHIM"
 
 connections:
+  # nRF51822 power (module runs from the Pi's 3V3 rail)
+  - from: {board_pin: 17}
+    to: {device: "nRF51822", device_pin: "VDD"}
+    net: "3V3"
+  - from: {board_pin: 25}
+    to: {device: "nRF51822", device_pin: "GND"}
+    net: "GND"
+
   # nRF51822 control lines → Pi GPIO
   - from: {board_pin: 26}
-    to: {device: "nRF51822", device_pin: "P0.0 Source"}
+    to: {device: "nRF51822", device_pin: "P0.00 Source"}
     net: "Source switch / pairing"
   - from: {board_pin: 24}
     to: {device: "nRF51822", device_pin: "P0.04 Pwr/Mute"}
