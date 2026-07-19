@@ -1,18 +1,18 @@
 {
   "name": "Raspberry Pi Zero W",
   "svg_asset": "raspberry_pi_zero_w.svg",
-  "width": 205.42,
-  "height": 307.46,
+  "width": 124.0,
+  "height": 268.0,
   "header_offset": {
-    "x": 23.715,
-    "y": 5.156
+    "x": 0.0,
+    "y": 0.0
   },
   "render_mode": "programmatic",
   "show_pin_names": true,
   "layout": {
-    "left_col_x": 187.1,
-    "right_col_x": 199.1,
-    "start_y": 16.2,
+    "left_col_x": 102.0,
+    "right_col_x": 114.0,
+    "start_y": 16.0,
     "row_spacing": 12.0
   },
   "pins": [

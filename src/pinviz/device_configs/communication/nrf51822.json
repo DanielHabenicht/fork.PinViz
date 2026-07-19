@@ -39,9 +39,11 @@
     {"name": "P0.28", "role": "GPIO", "side": "right"},
     {"name": "P0.29 LED1", "role": "GPIO", "side": "right"},
     {"name": "P0.30", "role": "GPIO", "side": "right"},
-    {"name": "SWDIO", "role": "GPIO", "side": "right"},
-    {"name": "SWDCLK", "role": "GPIO", "side": "right"},
-    {"name": "RESET", "role": "GPIO", "side": "right"}
+    {"name": "SCLK (SWDCLK)", "role": "GPIO", "side": "right"},
+    {"name": "SDO (SWDIO)", "role": "GPIO", "side": "right"},
+    {"name": "NC", "role": "GPIO", "side": "right"},
+    {"name": "NC ", "role": "GPIO", "side": "right"},
+    {"name": "GND (2)", "role": "GND", "side": "right"}
   ],
 
   "display": {
