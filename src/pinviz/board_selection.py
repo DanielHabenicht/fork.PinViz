@@ -14,6 +14,13 @@ BOARD_LOADERS = {
     "raspberry_pi_4": boards.raspberry_pi_4,
     "rpi4": boards.raspberry_pi_4,
     "pi4": boards.raspberry_pi_4,
+    # Raspberry Pi Zero W (standard 40-pin header, rendered programmatically)
+    "raspberry_pi_zero_w": boards.raspberry_pi_zero_w,
+    "pi_zero_w": boards.raspberry_pi_zero_w,
+    "zero_w": boards.raspberry_pi_zero_w,
+    "zerow": boards.raspberry_pi_zero_w,
+    "pizero": boards.raspberry_pi_zero_w,
+    "rpi_zero": boards.raspberry_pi_zero_w,
     # Raspberry Pi Pico
     "raspberry_pi_pico": boards.raspberry_pi_pico,
     "pico": boards.raspberry_pi_pico,

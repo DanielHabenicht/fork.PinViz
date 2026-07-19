@@ -169,6 +169,10 @@ Demonstrates safe control of high-voltage devices:
 - **pico_bme280.yaml** - BME280 sensor on Pico
 - **pico_leds_with_specs.yaml** - Multiple LEDs with specifications on Pico
 
+#### Raspberry Pi Zero W
+
+- **teufel_e450_nrf51822.yaml** - nRF51822 speaker controller (source switch, rotary encoder, LEDs) plus a Pimoroni Audio DAC SHIM wired to a Pi Zero W, from the [hobby.teufel-e450](https://github.com/DanielHabenicht/hobby.teufel-e450) project
+
 #### ESP32
 
 - **esp32_s3_can_transceiver.yaml** - SN65HVD230 CAN (TWAI) transceiver on ESP32-S3-DevKitC-1

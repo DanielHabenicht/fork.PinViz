@@ -272,7 +272,7 @@ For step-by-step instructions, see the `guides/` directory:
 
 ## Quick Reference
 
-**Supported boards:** `raspberry_pi_5`, `raspberry_pi_4`, `raspberry_pi_pico`, `rpi5`, `rpi4`, `pico`, `rpi`
+**Supported boards:** `raspberry_pi_5`, `raspberry_pi_4`, `raspberry_pi_zero_w`, `raspberry_pi_pico`, `rpi5`, `rpi4`, `pi_zero_w`/`zero_w`, `pico`, `rpi`
 
 **Pin roles:** `GPIO`, `3V3`, `5V`, `GND`, `I2C_SDA`, `I2C_SCL`, `SPI_MOSI`, `SPI_MISO`, `SPI_SCLK`, `SPI_CE0`, `SPI_CE1`, `UART_TX`, `UART_RX`, `PWM`
 

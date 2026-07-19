@@ -1,0 +1,59 @@
+# Teufel E450 — nRF51822 controller + Audio DAC SHIM → Raspberry Pi Zero W
+#
+# Wiring reference for the hobby.teufel-e450 project. The nRF51822 exposes the
+# speaker's physical controls (source switch, rotary encoder, power/mute, LEDs)
+# as GPIO lines read by the Pi Zero W, while a Pimoroni Audio DAC SHIM provides
+# I2S line-out audio for Squeezelite.
+#
+# NRF51822 | Default | Pi GPIO (physical pin) | Function
+# ---------|---------|------------------------|----------------------
+# P0.0     | HIGH    | GPIO 7  (pin 26)       | Source switch / pairing
+# P0.04    | HIGH    | GPIO 8  (pin 24)       | Power / Mute / Encoder C
+# P0.01    | LOW     | GPIO 23 (pin 16)       | Encoder A
+# P0.03    | LOW     | GPIO 24 (pin 18)       | Encoder B
+# P0.09    | LOW     | GPIO 25 (pin 22)       | LED2
+# P0.29    | LOW     | --                     | LED1 (not wired to Pi)
+# P0.13    | HIGH    | --                     | RX  (not wired to Pi)
+# P0.14    | HIGH    | --                     | TX  (not wired to Pi)
+# --       | --      | GPIO 18 (pin 12)       | Audio DAC SHIM (I2S BCLK)
+# --       | --      | GPIO 19 (pin 35)       | Audio DAC SHIM (I2S LRCLK)
+# --       | --      | GPIO 21 (pin 40)       | Audio DAC SHIM (I2S DATA)
+title: "Teufel E450 — nRF51822 Controller & Audio DAC SHIM (Raspberry Pi Zero W)"
+board: "raspberry_pi_zero_w"
+
+devices:
+  - type: "nrf51822"
+    name: "nRF51822"
+  - type: "audio_dac_shim"
+    name: "Audio DAC SHIM"
+
+connections:
+  # nRF51822 control lines → Pi GPIO
+  - from: {board_pin: 26}
+    to: {device: "nRF51822", device_pin: "P0.0 Source"}
+    net: "Source switch / pairing"
+  - from: {board_pin: 24}
+    to: {device: "nRF51822", device_pin: "P0.04 Pwr/Mute"}
+    net: "Power / Mute / Encoder C"
+  - from: {board_pin: 16}
+    to: {device: "nRF51822", device_pin: "P0.01 Enc A"}
+    net: "Encoder A"
+  - from: {board_pin: 18}
+    to: {device: "nRF51822", device_pin: "P0.03 Enc B"}
+    net: "Encoder B"
+  - from: {board_pin: 22}
+    to: {device: "nRF51822", device_pin: "P0.09 LED2"}
+    net: "LED2"
+
+  # Audio DAC SHIM → Pi I2S bus
+  - from: {board_pin: 12}
+    to: {device: "Audio DAC SHIM", device_pin: "BCLK (GPIO18)"}
+    net: "I2S BCLK"
+  - from: {board_pin: 35}
+    to: {device: "Audio DAC SHIM", device_pin: "LRCLK (GPIO19)"}
+    net: "I2S LRCLK"
+  - from: {board_pin: 40}
+    to: {device: "Audio DAC SHIM", device_pin: "DIN (GPIO21)"}
+    net: "I2S DATA"
+
+show_legend: true

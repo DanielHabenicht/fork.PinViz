@@ -532,6 +532,34 @@ def esp32_s3_devkitc1_schematic() -> Board:
     return load_board_from_config("esp32_s3_devkitc1_schematic")
 
 
+def raspberry_pi_zero_w() -> Board:
+    """
+    Create a Raspberry Pi Zero W board with the standard 40-pin GPIO header.
+
+    The Zero W shares the exact 2x20 GPIO pinout of the larger Raspberry Pi
+    boards, so pin numbers and roles match :func:`raspberry_pi_4` /
+    :func:`raspberry_pi_5`. It is rendered programmatically (no SVG board art)
+    with ``show_pin_names`` enabled, so each pin bubble shows its GPIO number /
+    power rail directly.
+
+    Pin layout (physical pin numbers):
+    Standard 2x20 header layout:
+    - Left column (odd pins): 1, 3, 5, ..., 39 (top to bottom)
+    - Right column (even pins): 2, 4, 6, ..., 40 (top to bottom)
+
+    Returns:
+        Board: Configured Raspberry Pi Zero W board with all 40 pins positioned
+
+    Examples:
+        >>> board = raspberry_pi_zero_w()
+        >>> print(board.name)
+        Raspberry Pi Zero W
+        >>> print(len(board.pins))
+        40
+    """
+    return load_board_from_config("raspberry_pi_zero_w")
+
+
 def get_available_boards() -> list[dict[str, str | list[str]]]:
     """
     Get a list of all available board configurations.
@@ -562,6 +590,7 @@ def get_available_boards() -> list[dict[str, str | list[str]]]:
     board_aliases = {
         "raspberry_pi_5": ["rpi5", "rpi"],
         "raspberry_pi_4": ["rpi4", "pi4"],
+        "raspberry_pi_zero_w": ["pi_zero_w", "zero_w", "zerow", "pizero", "rpi_zero"],
         "raspberry_pi_pico": ["pico"],
         "esp32_devkit_v1": ["esp32", "esp32dev", "esp32_devkit"],
         "esp32_s3_devkitc1": ["esp32s3", "esp32_s3", "esp32_s3_devkit", "esp32_s3_devkitc"],

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="620.0" height="602.46" viewBox="0 0 620.0 602.46">
+<defs>
+</defs>
+<rect x="0" y="0" width="620.0" height="602.46" fill="white" />
+<text x="310.0" y="25" font-size="20" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#333">Teufel E450 — nRF51822 Controller &amp; Audio DAC SHIM (Raspberry Pi Zero W)</text>
+<g transform="translate(40.0, 130.0)">
+<rect x="0" y="0" width="205.42" height="307.46" rx="8.0" ry="8.0" fill="#006B32" stroke="#004D24" stroke-width="2.0" />
+<g>
+<rect x="185.1" y="14.2" width="16.0" height="232.0" rx="2" ry="2" fill="#1A1A1A" stroke="#000" stroke-width="1" />
+</g>
+</g>
+<text x="142.70999999999998" y="457.46" font-size="14" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#333">Raspberry Pi Zero W</text>
+<circle cx="227.1" cy="146.2" r="4.5" fill="#FFA500" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.184" y="147.7" font-size="3.2399999999999998" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">3V3</text>
+<circle cx="239.1" cy="146.2" r="4.5" fill="#FF0000" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="147.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">5V</text>
+<circle cx="227.1" cy="158.2" r="4.5" fill="#FF00FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="159.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">2</text>
+<circle cx="239.1" cy="158.2" r="4.5" fill="#FF0000" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="159.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">5V</text>
+<circle cx="227.1" cy="170.2" r="4.5" fill="#FF00FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="171.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">3</text>
+<circle cx="239.1" cy="170.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="171.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="227.1" cy="182.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="183.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">4</text>
+<circle cx="239.1" cy="182.2" r="4.5" fill="#0000FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="183.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">14</text>
+<circle cx="227.1" cy="194.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="195.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="239.1" cy="194.2" r="4.5" fill="#0000FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="195.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">15</text>
+<circle cx="227.1" cy="206.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="207.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">17</text>
+<circle cx="239.1" cy="206.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="207.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">18</text>
+<circle cx="227.1" cy="218.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="219.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">27</text>
+<circle cx="239.1" cy="218.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="219.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="227.1" cy="230.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="231.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">22</text>
+<circle cx="239.1" cy="230.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="231.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">23</text>
+<circle cx="227.1" cy="242.2" r="4.5" fill="#FFA500" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.184" y="243.7" font-size="3.2399999999999998" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">3V3</text>
+<circle cx="239.1" cy="242.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="243.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">24</text>
+<circle cx="227.1" cy="254.2" r="4.5" fill="#0000FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="255.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">10</text>
+<circle cx="239.1" cy="254.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="255.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="227.1" cy="266.2" r="4.5" fill="#0000FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="267.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">9</text>
+<circle cx="239.1" cy="266.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="267.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">25</text>
+<circle cx="227.1" cy="278.2" r="4.5" fill="#0000FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="279.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">11</text>
+<circle cx="239.1" cy="278.2" r="4.5" fill="#0000FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="279.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">8</text>
+<circle cx="227.1" cy="290.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="291.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="239.1" cy="290.2" r="4.5" fill="#0000FF" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="291.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#FFFFFF">7</text>
+<circle cx="227.1" cy="302.2" r="4.5" fill="#FFFF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="303.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">0</text>
+<circle cx="239.1" cy="302.2" r="4.5" fill="#FFFF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="303.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">1</text>
+<circle cx="227.1" cy="314.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="315.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">5</text>
+<circle cx="239.1" cy="314.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="315.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="227.1" cy="326.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="327.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">6</text>
+<circle cx="239.1" cy="326.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="327.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">12</text>
+<circle cx="227.1" cy="338.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="339.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">13</text>
+<circle cx="239.1" cy="338.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="237.75" y="339.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="227.1" cy="350.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="351.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">19</text>
+<circle cx="239.1" cy="350.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="351.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">16</text>
+<circle cx="227.1" cy="362.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="224.4" y="363.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">26</text>
+<circle cx="239.1" cy="362.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="363.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">20</text>
+<circle cx="227.1" cy="374.2" r="4.5" fill="#D3D3D3" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="225.75" y="375.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">G</text>
+<circle cx="239.1" cy="374.2" r="4.5" fill="#00FF00" stroke="#333" stroke-width="0.5" opacity="0.95" />
+<text x="236.4" y="375.7" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="#000000">21</text>
+<path d="M 227.10,350.20 C 244.60,335.00 372.00,391.40 440.00,391.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 227.10,350.20 C 244.60,335.00 372.00,391.40 440.00,391.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="227.1" cy="350.2" r="4.0" fill="white" />
+<circle cx="227.1" cy="350.2" r="3.0" fill="#808080" />
+<path d="M 239.10,374.20 C 255.40,389.40 372.00,401.40 440.00,401.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 239.10,374.20 C 255.40,389.40 372.00,401.40 440.00,401.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="239.1" cy="374.2" r="4.0" fill="white" />
+<circle cx="239.1" cy="374.2" r="3.0" fill="#808080" />
+<path d="M 239.10,206.20 C 254.43,171.88 360.03,381.40 440.00,381.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 239.10,206.20 C 254.43,171.88 360.03,381.40 440.00,381.40" stroke="#DA70D6" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="239.1" cy="206.2" r="4.0" fill="white" />
+<circle cx="239.1" cy="206.2" r="3.0" fill="#DA70D6" />
+<path d="M 239.10,266.20 C 260.20,237.55 372.00,311.40 440.00,311.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 239.10,266.20 C 260.20,237.55 372.00,311.40 440.00,311.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="239.1" cy="266.2" r="4.0" fill="white" />
+<circle cx="239.1" cy="266.2" r="3.0" fill="#808080" />
+<path d="M 239.10,242.20 C 264.03,271.77 372.00,301.40 440.00,301.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 239.10,242.20 C 264.03,271.77 372.00,301.40 440.00,301.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="239.1" cy="242.2" r="4.0" fill="white" />
+<circle cx="239.1" cy="242.2" r="3.0" fill="#808080" />
+<path d="M 239.10,230.20 C 260.83,222.30 372.00,291.40 440.00,291.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 239.10,230.20 C 260.83,222.30 372.00,291.40 440.00,291.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="239.1" cy="230.2" r="4.0" fill="white" />
+<circle cx="239.1" cy="230.2" r="3.0" fill="#808080" />
+<path d="M 239.10,278.20 C 262.60,280.86 372.00,281.40 440.00,281.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 239.10,278.20 C 262.60,280.86 372.00,281.40 440.00,281.40" stroke="#9370DB" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="239.1" cy="278.2" r="4.0" fill="white" />
+<circle cx="239.1" cy="278.2" r="3.0" fill="#9370DB" />
+<path d="M 239.10,290.20 C 265.00,327.43 372.00,271.40 440.00,271.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 239.10,290.20 C 265.00,327.43 372.00,271.40 440.00,271.40" stroke="#8B4513" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="239.1" cy="290.2" r="4.0" fill="white" />
+<circle cx="239.1" cy="290.2" r="3.0" fill="#8B4513" />
+<text x="515.0" y="256.4" font-size="12.0" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#333">nRF51822</text>
+<rect x="450.0" y="261.4" width="130.0" height="90.0" rx="5" ry="5" fill="#4A90E2" stroke="#333" stroke-width="2" opacity="0.9" />
+<text x="510.0" y="366.4" font-size="12.0" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" fill="#333">Audio DAC SHIM</text>
+<rect x="450.0" y="371.4" width="120.0" height="40.0" rx="5" ry="5" fill="#95A5A6" stroke="#333" stroke-width="2" opacity="0.9" />
+<path d="M 440.00,391.40 L 457.00,391.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,391.40 L 457.00,391.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<path d="M 440.00,401.40 L 457.00,401.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,401.40 L 457.00,401.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<path d="M 440.00,381.40 L 457.00,381.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,381.40 L 457.00,381.40" stroke="#DA70D6" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<path d="M 440.00,311.40 L 457.00,311.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,311.40 L 457.00,311.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<path d="M 440.00,301.40 L 457.00,301.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,301.40 L 457.00,301.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<path d="M 440.00,291.40 L 457.00,291.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,291.40 L 457.00,291.40" stroke="#808080" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<path d="M 440.00,281.40 L 457.00,281.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,281.40 L 457.00,281.40" stroke="#9370DB" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<path d="M 440.00,271.40 L 457.00,271.40" stroke="white" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="1.0" />
+<path d="M 440.00,271.40 L 457.00,271.40" stroke="#8B4513" stroke-width="3.0" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+<circle cx="455.0" cy="271.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="271.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="266.4" width="57.5" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="273.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.0 Source</text>
+<circle cx="455.0" cy="281.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="281.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="276.4" width="71.0" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="283.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.04 Pwr/Mute</text>
+<circle cx="455.0" cy="291.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="291.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="286.4" width="57.5" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="293.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.01 Enc A</text>
+<circle cx="455.0" cy="301.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="301.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="296.4" width="57.5" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="303.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.03 Enc B</text>
+<circle cx="455.0" cy="311.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="311.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="306.4" width="53.0" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="313.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.09 LED2</text>
+<circle cx="455.0" cy="321.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="321.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="316.4" width="53.0" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="323.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.29 LED1</text>
+<circle cx="455.0" cy="331.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="331.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="326.4" width="44.0" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="333.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.13 RX</text>
+<circle cx="455.0" cy="341.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="341.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="336.4" width="44.0" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="343.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">P0.14 TX</text>
+<circle cx="455.0" cy="381.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="381.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="376.4" width="66.5" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="383.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">BCLK (GPIO18)</text>
+<circle cx="455.0" cy="391.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="391.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="386.4" width="71.0" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="393.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">LRCLK (GPIO19)</text>
+<circle cx="455.0" cy="401.4" r="4.0" fill="white" opacity="0.8" />
+<circle cx="455.0" cy="401.4" r="3.0" fill="#FFD700" stroke="#333" stroke-width="1" opacity="1.0" />
+<rect x="461.0" y="396.4" width="62.0" height="10" rx="2" ry="2" fill="#000000" opacity="0.8" />
+<text x="465.0" y="403.9" font-size="7" text-anchor="start" font-family="Arial, sans-serif" fill="#FFFFFF">DIN (GPIO21)</text>
+<rect x="40.0" y="467.46" width="540.0" height="95.0" fill="#F8F9FA" stroke="#333" stroke-width="1" rx="4" ry="4" />
+<rect x="40.0" y="467.46" width="540.0" height="35.0" fill="#E9ECEF" stroke="#333" stroke-width="1" />
+<text x="50.0" y="487.46" font-size="12" font-family="Arial, sans-serif" font-weight="bold" fill="#333">Device Specifications</text>
+<text x="50.0" y="522.46" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#333">nRF51822</text>
+<text x="129.3" y="522.46" font-size="9" font-family="Arial, sans-serif" fill="#666">Nordic nRF51822 BLE SoC used as the speaker's button/encoder/LED controller</text>
+<path d="M40.0,532.46 L580.0,532.46" stroke="#DEE2E6" stroke-width="1" />
+<text x="50.0" y="552.46" font-size="9" font-family="Arial, sans-serif" font-weight="bold" fill="#333">Audio DAC SHIM</text>
+<text x="129.3" y="552.46" font-size="9" font-family="Arial, sans-serif" fill="#666">HiFiBerry-compatible I2S DAC SHIM for line-out audio on the Raspberry Pi</text>
+</svg>

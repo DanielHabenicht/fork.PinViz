@@ -1,0 +1,19 @@
+{
+  "id": "audio_dac_shim",
+  "name": "Pimoroni Audio DAC SHIM",
+  "category": "io",
+  "description": "HiFiBerry-compatible I2S DAC SHIM for line-out audio on the Raspberry Pi",
+
+  "pins": [
+    {"name": "BCLK (GPIO18)", "role": "PWM", "side": "left"},
+    {"name": "LRCLK (GPIO19)", "role": "PCM_FS", "side": "left"},
+    {"name": "DIN (GPIO21)", "role": "PCM_DOUT", "side": "left"}
+  ],
+
+  "display": {
+    "width": 120.0
+  },
+
+  "datasheet_url": "https://shop.pimoroni.com/products/audio-dac-shim-line-out",
+  "notes": "HiFiBerry DAC-compatible I2S line-out SHIM used with Squeezelite. Uses the Pi's I2S bus: BCLK on GPIO18, LRCLK on GPIO19 and DATA on GPIO21. Power (5V/GND/3V3) is taken from the header rails."
+}

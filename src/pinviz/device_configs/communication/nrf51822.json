@@ -1,0 +1,24 @@
+{
+  "id": "nrf51822",
+  "name": "nRF51822 (Speaker Controller)",
+  "category": "communication",
+  "description": "Nordic nRF51822 BLE SoC used as the speaker's button/encoder/LED controller",
+
+  "pins": [
+    {"name": "P0.0 Source", "role": "GPIO", "side": "left"},
+    {"name": "P0.04 Pwr/Mute", "role": "GPIO", "side": "left"},
+    {"name": "P0.01 Enc A", "role": "GPIO", "side": "left"},
+    {"name": "P0.03 Enc B", "role": "GPIO", "side": "left"},
+    {"name": "P0.09 LED2", "role": "GPIO", "side": "left"},
+    {"name": "P0.29 LED1", "role": "GPIO", "side": "left", "optional": true},
+    {"name": "P0.13 RX", "role": "UART_RX", "side": "left", "optional": true},
+    {"name": "P0.14 TX", "role": "UART_TX", "side": "left", "optional": true}
+  ],
+
+  "display": {
+    "width": 130.0
+  },
+
+  "datasheet_url": "https://www.nordicsemi.com/products/nrf51822",
+  "notes": "Nordic nRF51822 BLE microcontroller flashed with custom firmware (via OpenOCD + ST-Link V2). Maps the speaker's physical controls to GPIO lines read by the Raspberry Pi Zero W. P0.0 and P0.04 idle HIGH; the encoder lines and LED2 idle LOW. P0.29 (LED1) and the P0.13/P0.14 UART are not wired to the Pi in this build."
+}
